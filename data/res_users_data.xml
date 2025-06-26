@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- Función que se ejecuta para restaurar permisos después del inicio -->
+        <function model="res.users" name="restore_pos_permissions" />
+    </data>
+</odoo> 

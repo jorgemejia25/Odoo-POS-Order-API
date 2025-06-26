@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Configuración para mantener permisos de POS después del reinicio -->
+        <record id="pos_order_api_keep_permissions" model="ir.config_parameter">
+            <field name="key">pos_order_api.keep_permissions</field>
+            <field name="value">True</field>
+        </record>
+
+        <!-- Configuración para auto-asignar grupos de POS a usuarios -->
+        <record id="pos_order_api_auto_assign_groups" model="ir.config_parameter">
+            <field name="key">pos_order_api.auto_assign_groups</field>
+            <field name="value">True</field>
+        </record>
+
+        <!-- Configuración para logging de cambios de permisos -->
+        <record id="pos_order_api_log_permission_changes" model="ir.config_parameter">
+            <field name="key">pos_order_api.log_permission_changes</field>
+            <field name="value">True</field>
+        </record>
+    </data>
+</odoo> 
