@@ -1,6 +1,6 @@
 {
     "name": "POS Order API",
-    "version": "18.0.1.0",
+    "version": "17.0.1.0",
     "depends": ["point_of_sale", "base", "mail", "bus"],
     "summary": "API REST para registrar órdenes en el punto de venta con notificaciones",
     "category": "Point of Sale",
